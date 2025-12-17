@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bulkifymart | Grocery Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2e8b57;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        .product button {
+            background-color: #2e8b57;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .product button:hover {
+            background-color: #256f46;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Bulkifymart.com</h1>
+    <p>Fresh Items at Best Prices</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#categories">Categories</a>
+    <a href="#bulk">Bulk Orders</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- WhatsApp Order Button -->
+<a href="https://wa.me/919672027435" target="_blank" style="position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;padding:15px 20px;border-radius:50px;text-decoration:none;font-weight:bold;box-shadow:0 0 10px rgba(0,0,0,0.3);">🛒 Order on WhatsApp</a>
+
+<div class="container" id="categories">
+    <h2>Product Categories</h2>
+    <div class="products">
+        <div class="product"><h3>Rice</h3><p>Basmati, Sona Masuri</p><button>Order Now</button></div>
+        <div class="product"><h3>Pulses</h3><p>Toor, Moong, Chana</p><button>Order Now</button></div>
+        <div class="product"><h3>Cooking Oil</h3><p>Sunflower, Mustard</p><button>Order Now</button></div>
+        <div class="product"><h3>FMCG</h3><p>Soap, Snacks, Beverages</p><button>Order Now</button></div>
+    </div>
+</div>
+        <div class="product">
+            <h3>Wheat Flour</h3>
+            <p>₹40 / kg</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Vegetables</h3>
+            <p>Fresh Daily</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Fruits</h3>
+            <p>Seasonal</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="bulk">
+    <h2>Bulk Purchase (Shops & Hotels)</h2>
+    <p>✔ Special wholesale prices</p>
+    <p>✔ Large quantity supply</p>
+    <p>✔ Fast delivery</p>
+    <p><strong>Contact us on WhatsApp for bulk orders</strong></p>
+    <a href="price-list.pdf" download style="background:#2e8b57;color:#fff;padding:10px 15px;border-radius:5px;text-decoration:none;">⬇ Download Price List (PDF)</a>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Phone: 9672027435</p>
+    <p>📧 Email: rahulsaini81726@gmail.com</p>
+    <p>📍 Address: Your City, India</p>
+</div>
+
+<footer>
+    <p>© 2025 Bulkifymart | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
